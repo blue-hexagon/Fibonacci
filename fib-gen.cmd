@@ -1,5 +1,5 @@
-REM Fibonacci sequence generator in QBasic
-:: Fibonacci sequence generator in QBasic
+REM Fibonacci sequence generator in Batch
+:: Fibonacci sequence generator in Batch
 @echo off & :: Inline comment
 set /p numberOfIterations=Fibonacci Sequence Length: 
 set n1=1
