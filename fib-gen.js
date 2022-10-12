@@ -1,3 +1,9 @@
+// Fibonacci sequence generator in Javascript
+
+/*
+Fibonacci sequence generator in Javascript
+*/
+
 let n1 = 1
 let n2 = 2
 let iter = 0
