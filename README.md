@@ -5,7 +5,5 @@ The objective of this repository is to write the same small programs in many dif
 |                  | QBasic | Batch | Bash | Powershell | Javascript | Typescript | Lua | Perl | Python | Ruby | Java | Go | C# | Rust |
 |------------------|--------|-------|------|------------|------------|------------|-----|------|--------|------|------|----|----|------|
 | Looping          | Yes    | Yes   | Yes  | Yes        | Yes        | Yes        | Yes | Yes  | Yes    | Yes  | Yes  | Yes| Yes| Yes  |
-| Comments         |        |       |      |            |            |            |     |      |        |      |      |    |    |      |
-| Scoped Variables |        |       |      |            |            |            |     |      |        |      |      |    |    |      |
-| Prompt/Read Input|        |       |      |            |            |            |     |      |        |      |      |    |    |      |
-| Typing           |        |       |      |            |            |            |     |      |        |      |      |    |    |      |
+| Comments         | Yes    | Yes   |      |            |            |            |     |      |        |      |      |    |    |      |
+| Prompt/Read Input| Yes    | Yes   |      |            |            |            |     |      |        |      |      |    |    |      |
