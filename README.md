@@ -1,5 +1,4 @@
-# Code Snippets
-The objective of this repository is to write the same small programs in many different languages.
+# What is This?
+The objective of this repository is to write a fibonacci sequence generator in as many languages as possible.
 
-## 1. Fibonacci Sequence
-..
+Let's see how many I can do..
