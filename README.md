@@ -1,5 +1,5 @@
 # Code Snippets
-Languages used so far: `Rust`, `QBasic`, `Batch`, `C#`, `Go`, `Java`, `Javascript`, `Lua`, `Perl`, `Powershell`, `Python`, `Ruby`, `Bash`, `Typescript`
+The objective of this repository is to write the same small programs in many different languages.
 
 ## 1. Fibonacci Sequence
 |                  | QBasic | Batch | Bash | Powershell | Javascript | Typescript | Lua | Perl | Python | Ruby | Java | Go | C# | Rust |
