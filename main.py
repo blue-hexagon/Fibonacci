@@ -1,5 +1,4 @@
 import os
-import sys
 
 
 def create_md_link(programming_lang_name: str, filename: str):
@@ -9,18 +8,18 @@ def create_md_link(programming_lang_name: str, filename: str):
 langs = [
     ("Basic", ".bas"),
     ("Batch", ".bat"),
-    ("C#", ".cs"),
-    ("Go", ".go"),
-    ("Java", ".java"),
-    ("JavaScript", ".js"),
+    ("Bash", ".sh"),
+    ("Powershell", ".ps1"),
     ("Lua", ".lua"),
     ("Perl", ".pl"),
-    ("Powershell", ".ps1"),
-    ("Python", ".py"),
     ("Ruby", ".rb"),
-    ("Rust", ".rs"),
-    ("Bash", ".sh"),
+    ("Python", ".py"),
+    ("JavaScript", ".js"),
     ("TypeScript", ".ts"),
+    ("Go", ".go"),
+    ("C#", ".cs"),
+    ("Java", ".java"),
+    ("Rust", ".rs"),
 ]
 if __name__ == "__main__":
     with open("./README.md", mode="w+") as README:
@@ -33,12 +32,12 @@ The objective of this repository is to write a fibonacci sequence generator in m
 # Completed
             """
         )
-        for file in os.listdir(os.getcwd()):
-            file_ext = os.path.splitext(file)[1]
-            lang_name = [name for name, ext in langs if ext == file_ext]
-            lang_name = str(lang_name)[2:-2]
-            README.write(create_md_link(lang_name, file))
-            with open(file) as f:
+        for lang in langs:
+            lang_name = lang[0]
+            file_name = "fib-gen" + lang[1]
+            file_path = os.getcwd() + "\\" + file_name
+            README.write(create_md_link(lang_name, file_name))
+            with open(file_path) as f:
                 for line in f.readlines():
                     README.write("\t" + line)
             README.write("\n")
