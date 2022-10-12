@@ -1,4 +1,5 @@
-
+// Fibonacci sequence generator in Rust
+/* Fibonacci sequence generator in Rust */
 fn main() {
     let mut n1: i16 = 1;
     let mut n2: i16 = 2;
