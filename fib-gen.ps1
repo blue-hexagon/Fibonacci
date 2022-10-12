@@ -1,3 +1,9 @@
+# Fibonacci sequence generator in Powershell
+
+<#
+Fibonacci sequence generator in Powershell
+#>
+
 $numberOfIterations = Read-Host "Fibonacci Sequence Length: "
 $n1=1
 $n2=2
