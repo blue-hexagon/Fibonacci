@@ -1,3 +1,10 @@
+# Fibonacci sequence generator in Bash
+
+<< 'COMMENT'
+  A non redirected heredoc can serve as a multiline comment.
+  Like this!
+COMMENT
+
 read -p "Fibonacci Sequence Length:" numberOfIterations 
 n1=1
 n2=2
