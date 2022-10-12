@@ -2,7 +2,7 @@
 
 << 'COMMENT'
   A non redirected heredoc can serve as a multiline comment.
-  Like this!
+  This is a hack though.
 COMMENT
 
 read -p "Fibonacci Sequence Length:" numberOfIterations 
