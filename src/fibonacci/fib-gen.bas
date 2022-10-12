@@ -9,5 +9,5 @@ WHILE iter < numberOfIterations
   new_number = n1 + n2
   n1 = n2
   n2 = new_number
-  iter = iter+1 
+  iter = iter+1
 WEND

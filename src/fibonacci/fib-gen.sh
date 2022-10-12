@@ -5,7 +5,7 @@
   This is a hack though.
 COMMENT
 
-read -p "Fibonacci Sequence Length:" numberOfIterations 
+read -p "Fibonacci Sequence Length:" numberOfIterations
 n1=1
 n2=2
 iter=0

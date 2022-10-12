@@ -6,7 +6,7 @@ if __FILE__ == $0
   numberOfIterations = gets.to_i
 
   while iter <= numberOfIterations do
-    puts "Fib(#{iter})=#{n1}"  
+    puts "Fib(#{iter})=#{n1}"
     new_number = n1 + n2
     n1 = n2
     n2 = new_number

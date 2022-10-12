@@ -1,7 +1,7 @@
 REM Fibonacci sequence generator in Batch
 :: Fibonacci sequence generator in Batch
 @echo off & :: Inline comment
-set /p numberOfIterations=Fibonacci Sequence Length: 
+set /p numberOfIterations=Fibonacci Sequence Length:
 set n1=1
 set n2=2
 set iter=0

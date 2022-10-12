@@ -16,5 +16,3 @@ DO {
 	$n2 = $new_number
 	$iter = $iter+1
 } While ($iter -le $numberOfIterations)
-
-
