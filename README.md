@@ -1,6 +1,8 @@
 
 # What is This?
-The objective of this repository is to write a fibonacci sequence generator in many languages.
+The objective of this repository is to write the same program in multiple languages
+
+The program reads a number input *n* and calculates the fibonacci sequence from *0* up to *n*.
 
 # Completed
             
