@@ -4,7 +4,7 @@ Languages used so far: `Rust`, `QBasic`, `Batch`, `C#`, `Go`, `Java`, `Javascrip
 ## 1. Fibonacci Sequence
 |                  | QBasic | Batch | Bash | Powershell | Javascript | Typescript | Lua | Perl | Python | Ruby | Java | Go | C# | Rust |
 |------------------|--------|-------|------|------------|------------|------------|-----|------|--------|------|------|----|----|------|
-| While Loop       | X      | X     | X    | X          | X          | X          | X   | X    | X      | X    | X    | X  | X  | X    |
+| Looping          | Yes    | Yes   | Yes  | Yes        | Yes        | Yes        | Yes | Yes  | Yes    | Yes  | Yes  | Yes| Yes| Yes  |
 | Comments         |        |       |      |            |            |            |     |      |        |      |      |    |    |      |
 | Scoped Variables |        |       |      |            |            |            |     |      |        |      |      |    |    |      |
 | Prompt/Read Input|        |       |      |            |            |            |     |      |        |      |      |    |    |      |
